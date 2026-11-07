@@ -1,0 +1,377 @@
+*{
+    margin:0;
+    padding:0;
+    
+    
+}  
+
+body{
+    background-color:black;
+    
+    
+    
+    
+}
+
+header{
+    height:600px;
+    width:100%;
+    
+}
+header::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: url("IN-en-20261026-TRIFECTA-perspective_ef561213-292c-4768-aef0-c1db800e385e_large.jpg");
+    background-size: cover;
+    height:600px;
+    background-position: center;
+    
+
+    filter: brightness(0.4);
+    /* filter:drop-shadow(0.5); */
+    z-index: -1;
+    
+}
+#nvd{
+    width:100%;
+    margin-top:1px;
+    height:80px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    
+   
+    
+    
+}
+
+#logo{
+    width: 148px;
+    height:40px;
+    margin-top:20px;
+    margin-right:250px;
+    
+}
+
+#nav{
+    height:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top:20px;
+
+      
+}
+
+#lang{
+    width: 74px;
+    height:32px;
+    border-radius:2px;
+    color:rgb(240, 238, 238);
+    border:1px solid white;
+    text-align:center;
+    margin-right:10px;
+    align-content:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#signup{
+    width:76px;
+    height:32px;
+    border-radius:2px;
+    color:white;
+    border:1px solid white;
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:#E50914;
+}
+
+
+#default{
+    height:500px;
+    width:100%;   
+}
+
+#intro{
+    margin-top:120px;
+    text-align: center;
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    #logline{
+          font-weight: bold;
+          font-size:40px;
+          text-align:center;
+          padding-bottom:10px;
+    }
+    #pricepoint{
+        padding-bottom:10px;
+        font-size:20px;
+    }
+    
+    
+}
+#ready{
+          margin-top:20px;
+          font-size: 15px;
+
+}
+
+#email{
+        border-radius: 2px;
+        margin-top:10px;
+        padding-left:10px;
+        width:300px;
+        height:40px;
+        border: 1px solid grey;
+        background-color: rgba(20, 20, 20, 0.6);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:white
+        
+}
+#getstarted{
+        width:150px;
+        height:40px;
+        font-size:16px;
+        font-weight: bold;
+        margin-top: 10px;
+        border-radius: 3px;
+        border: 1px solid grey;
+        background-color:#E50914;
+        color:aliceblue
+        
+}
+
+#hr{
+    background-color:gray;
+    height:3px;
+    width:100%;
+    
+    
+}
+
+     
+#trending{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    margin-top:10px;
+    margin-left:12px;
+    margin-bottom:10px;
+}
+
+#movielist1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+#poster1{
+    height:230px;
+    width:150px;
+    border:0.5px solid rgb(88, 86, 86);
+    border-radius:8px;
+    margin:10px;
+    align-items: center;
+    background-size: contain;
+    z-index:1;
+}
+
+
+#poster1:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.08);
+}
+
+#num{
+    text-align: left;
+    text-shadow: 4px 4px 10px rgb(246, 9, 9);
+    position:relative;
+    top:140px;
+    right:12px;
+    
+    color:rgb(249, 248, 246);
+    font-size:74px;
+    font-weight: 800;
+    z-index:2;
+    
+}
+
+#movielist2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+#reasons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+
+#box{
+    width:250;
+    height:209;
+    border: 1px solid rgb(235, 228, 228);
+    margin:8px;
+    border-radius:10px;
+    background: linear-gradient(135deg,rgb(40, 7, 160) ,rgb(108, 63, 51) );
+}
+
+#more{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:10px;
+    margin-top:40px;
+}
+
+
+h3{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: unset;
+    margin:10px;
+}
+
+
+#res{
+    color:rgb(37, 36, 36);
+    font-size:12px;
+    margin:10px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#freq{
+    color:white;
+    margin:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap
+}
+#rect{
+    background-color:rgb(18, 18, 18);
+    width:80%;
+    height:70px;
+    margin:10px;
+    align-self: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    #freqe{
+            color:white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+             padding-left:10px;
+             padding-top:25px;
+            font-size: 20px;
+            
+    }
+    #plus{
+                  margin:10px;
+                  margin-top:15px;
+                  padding-right:5px;
+                
+                
+            }
+
+        
+
+}
+
+#egain{
+    display:flex;
+    justify-content: center;
+    margin:5px;
+    margin-bottom:30px;
+}
+#ready2{
+          padding-top:27px;
+          font-size: 19px;
+          color:white;
+          text-align:center;
+          margin-top:10px;
+
+}
+#email2{
+        border-radius: 2px;
+        margin-top:10px;
+        padding-left:10px;
+        margin-right:10px;
+        margin-left:10px;
+        width:450px;
+        height:40px;
+        border: 1px solid grey;
+        background-color: rgba(20, 20, 20, 0.6);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:white
+        
+}
+#getstarted2{
+        width:150px;
+        height:40px;
+        font-size:16px;
+        font-weight: bold;
+        margin-top: 10px;
+        border-radius: 3px;
+        border: 1px solid grey;
+        background-color:#E50914;
+        color:aliceblue;
+       
+        
+}
+
+#footstrt{
+    color:gray;
+    font-size:15px;
+    margin:10px;
+}
+footer{
+    display:flex;
+    justify-content:center;
+
+}
+#foot{
+    
+    width:250px;
+    height:300px;
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+}
+#footer_links{
+    color:gray;
+    padding:10px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+@media (max-width:440px){
+    #nvd{
+        justify-content: space-between;
+    }
+    #logo{
+        width:90px;
+        margin:5px;
+    }
+    #nav{
+        flex-wrap:wrap;
+    
+    }
+
+    
+}
+
+
