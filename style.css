@@ -23,7 +23,7 @@ header::before{
     position: absolute;
     inset: 0;
 
-    background-image: url("IN-en-20261026-TRIFECTA-perspective_ef561213-292c-4768-aef0-c1db800e385e_large.jpg");
+    background-image: url("background.jpg");
     background-size: cover;
     height:600px;
     background-position: center;
